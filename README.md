@@ -14,6 +14,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 | :-: | :-: | :-: | :-: |
 | 8.0 | 10.9 | 2.0 | 9.0 |
 
+
 ##Usage
 
 ######Creating a Request
@@ -31,6 +32,7 @@ NSDictionary *parameters = @{@"foo": @"bar", @"baz": @[@1, @2, @3]};
 
 
 ######additiional configuration
+
 
 ```Objective-C
 NSDictionary *parameters = @{@"foo": @"bar", @"baz": @[@1, @2, @3]};
@@ -77,6 +79,7 @@ NSURLSessionTask *task = [request send];
 
 
 ######specific serializer
+
 
 ```Objective-C
 
