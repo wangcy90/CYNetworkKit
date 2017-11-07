@@ -10,6 +10,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+
 | Minimum iOS Target | Minimum OS X Target | Minimum watchOS Target | Minimum tvOS Target |
 | :-: | :-: | :-: | :-: |
 | 8.0 | 10.9 | 2.0 | 9.0 |
