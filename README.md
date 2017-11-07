@@ -29,6 +29,7 @@ NSDictionary *parameters = @{@"foo": @"bar", @"baz": @[@1, @2, @3]};
 }] send];
 ```
 
+
 ######additiional configuration
 
 ```Objective-C
@@ -74,6 +75,7 @@ NSURLSessionTask *task = [request send];
 
 ```
 
+
 ######specific serializer
 
 ```Objective-C
@@ -87,6 +89,7 @@ CYURLRequest *request = [[CYURLRequest request] GET:@"http://example.com" parame
 [request send];
 
 ```
+
 
 ######CYURLRequest + ReactiveObjc
 
