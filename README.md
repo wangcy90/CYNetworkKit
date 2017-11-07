@@ -16,11 +16,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 | 8.0 | 10.9 | 2.0 | 9.0 |
 
 
-##Usage
+## Usage
 
-
-######Creating a Request
-
+###### Creating a Request
 
 ```Objective-C
 NSDictionary *parameters = @{@"foo": @"bar", @"baz": @[@1, @2, @3]};
@@ -32,9 +30,7 @@ NSDictionary *parameters = @{@"foo": @"bar", @"baz": @[@1, @2, @3]};
 }] send];
 ```
 
-
-######additiional configuration
-
+###### Additiional configuration
 
 ```Objective-C
 NSDictionary *parameters = @{@"foo": @"bar", @"baz": @[@1, @2, @3]};
@@ -79,9 +75,7 @@ NSURLSessionTask *task = [request send];
 
 ```
 
-
-######specific serializer
-
+###### Specific serializer
 
 ```Objective-C
 
@@ -95,8 +89,7 @@ CYURLRequest *request = [[CYURLRequest request] GET:@"http://example.com" parame
 
 ```
 
-
-######CYURLRequest + ReactiveObjc
+###### CYURLRequest + ReactiveObjc
 
 If you are using ReactiveObjc for networking and you want to create request with RACSignal, you can add `#define CYURLREQUEST_RAC_SUPPORT` before `#import <CYNetworkKit/CYNetworkKit.h>` or add `#define CYURLREQUEST_RAC_SUPPORT` to your pch file.
 
